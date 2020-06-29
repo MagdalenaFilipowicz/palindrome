@@ -1,9 +1,7 @@
-def palindrome(a):
-    result = "Czy slowo jest palindromem?"
-    if a[::-1] == a:
-            print('Tak')
+def palindrome(word):
+    if word[::-1] == word:
+        return True
     else:
-            print('Nie')
-    return result
+        return False
 
-print(palindrome(["kajak", "potop"]))
+print(palindrome("kajak"))
