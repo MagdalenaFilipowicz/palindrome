@@ -1,4 +1,4 @@
-print("Kalkulator")
+print("Kalkulator 1")
 
 import logging
 logging.basicConfig(level=logging.INFO)
